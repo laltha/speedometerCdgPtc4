@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #07080c;
+}
+.small-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  color: #ffffff;
+}
+buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image1 {
+  height: 300px;
+  width: 500px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.button1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+.button2 {
+  background-color: transparent;
+  cursor: pointer;
+  hex: #ffffff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 100px;
+  height: 38px;
+  border-radius: 16px;
+  border-width: 1px;
+}
+
+@media screen and(min-width:768px) {
+  heading {
+    font-size: 48px;
+  }
+}
